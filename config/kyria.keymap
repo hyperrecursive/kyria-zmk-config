@@ -23,30 +23,30 @@
 		// LY_COLEMAK 0
 		default_layer {
 			bindings = <
-	&none &kp Q &kp W &kp F     &kp P     &kp G                                                                       &kp J         &kp L    &kp U     &kp Y   &kp SEMI &none
-	&none &kp A &kp R &kp S     &kp T     &kp D                                                                       &kp H         &kp N    &kp E     &kp I   &kp O    &none
-	&none &kp Z &kp X &kp C     &kp V     &kp B         &kp CAPS         &kp PSCRN     &kp DEL       &kp BSPC         &kp K         &kp M    &kp COMMA &kp DOT &kp FSLH &none
-	                  &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt LSHFT TAB &kp LALT &kp LCMD
+	&none &kp Q &kp W &kp F     &kp P    &kp G                                                                       &kp J         &kp L     &kp U     &kp Y   &kp SEMI &none
+	&none &kp A &kp R &kp S     &kp T    &kp D                                                                       &kp H         &kp N     &kp E     &kp I   &kp O    &none
+	&none &kp Z &kp X &kp C     &kp V    &kp B         &kp DEL          &kp CAPS      &kp PSCRN     &kp BSPC         &kp K         &kp M     &kp COMMA &kp DOT &kp FSLH &none
+	                  &kp K_APP &kp LALT &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt LSHFT TAB &kp LCTRL &kp LCMD
 			>;
 		};
 
 		// LY_QWERTY 1
 		qwerty_layer {
 			bindings = <
-	&none &kp Q &kp W &kp E     &kp R     &kp T                                                                       &kp Y &kp U   &kp I     &kp O    &kp P    &none
-	&none &kp A &kp S &kp D     &kp F     &kp G                                                                       &kp H &kp J   &kp K     &kp L    &kp SEMI &none
-	&none &kp Z &kp X &kp C     &kp V     &kp B         &kp CAPS         &kp PSCRN     &kp DEL       &kp BSPC         &kp N &kp M   &kp COMMA &kp DOT  &kp FSLH &none
-	                  &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt LSHFT TAB &kp LALT  &kp LCMD
+	&none &kp Q &kp W &kp E     &kp R    &kp T                                                                       &kp Y         &kp U     &kp I     &kp O    &kp P    &none
+	&none &kp A &kp S &kp D     &kp F    &kp G                                                                       &kp H         &kp J     &kp K     &kp L    &kp SEMI &none
+	&none &kp Z &kp X &kp C     &kp V    &kp B         &kp DEL          &kp CAPS      &kp PSCRN     &kp BSPC         &kp N         &kp M     &kp COMMA &kp DOT  &kp FSLH &none
+	                  &kp K_APP &kp LALT &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt LSHFT TAB &kp LCTRL &kp LCMD
 			>;
 		};
 
 		// LY_NON_ENG 2
 		non_eng_layer {
 			bindings = <
-	&none     &kp Q &kp W     &kp E     &kp R         &kp T                                                                       &kp Y    &kp U    &kp I     &kp O   &kp P    &none
-	&kp GRAVE &kp A &kp S     &kp D     &kp F         &kp G                                                                       &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp LBKT
-	&kp MINUS &kp Z &kp X     &kp C     &kp V         &kp B            &kp CAPS      &kp PSCRN     &kp DEL          &kp BSPC      &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp SQT
-	                &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt LSHFT TAB &kp LALT &kp LCMD
+	&none     &kp Q &kp W &kp E     &kp R    &kp T                                                                       &kp Y         &kp U     &kp I     &kp O   &kp P    &none
+	&kp GRAVE &kp A &kp S &kp D     &kp F    &kp G                                                                       &kp H         &kp J     &kp K     &kp L   &kp SEMI &kp LBKT
+	&kp MINUS &kp Z &kp X &kp C     &kp V    &kp B         &kp DEL          &kp CAPS      &kp PSCRN     &kp BSPC         &kp N         &kp M     &kp COMMA &kp DOT &kp FSLH &kp SQT
+	                      &kp K_APP &kp LALT &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt LSHFT TAB &kp LCTRL &kp LCMD
 			>;
 		};
 
