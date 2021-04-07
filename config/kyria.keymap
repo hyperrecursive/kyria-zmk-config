@@ -42,10 +42,10 @@
 		// LY_SYM
 		symbols_layer {
 			bindings = <
-	&none     &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                         &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR          &none
-	&kp BSPC  &kp AMPS &kp MINUS &kp UNDER &kp LPAR  &kp LBRC                          &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp PIPE          &kp DEL
-	&kp LSHFT &kp SQT  &kp GRAVE &kp BSLH  &kp LT    &kp LBKT &none &none &none &none  &kp RBKT  &kp GT   &kp FSLH  &kp TILDE &kp DOUBLE_QUOTES &kp RSHFT
-	                             &kp LALT  &kp LCTRL &none    &none &none &none &trans &none     &none    &none
+	&none     &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                              &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR          &none
+	&kp BSPC  &kp AMPS &kp MINUS &kp UNDER &kp LPAR  &kp LBRC                               &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp PIPE          &kp DEL
+	&kp LSHFT &kp SQT  &kp GRAVE &kp BSLH  &kp LT    &kp LBKT &kp LALT &none &none &kp RALT &kp RBKT  &kp GT   &kp FSLH  &kp TILDE &kp DOUBLE_QUOTES &kp RSHFT
+	                             &none     &kp LCTRL &none    &none    &none &none &trans   &none     &none    &none
 			>;
 		};
 
