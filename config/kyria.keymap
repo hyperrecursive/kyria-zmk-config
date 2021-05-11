@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 #define LY_QWERTY 0
 #define LY_COLEMAK 1
@@ -82,10 +83,10 @@
 		// LY_SETTINGS
 		settings_layer {
 			bindings = <
-	&none &none &none &none &none &none                           &none &none         &none          &none &none &none
-	&none &none &none &none &none &none                           &none &to LY_QWERTY &to LY_COLEMAK &none &none &none
-	&none &none &none &none &none &none &none &none  &none  &none &none &none         &none          &none &none &none
-	                  &none &none &none &none &trans &trans &none &none &none         &none
+	&none &none &none      &none      &none      &none                                &none &none         &none          &none &none &none
+	&none &none &bt BT_CLR &bt BT_PRV &bt BT_NXT &bt BT_SEL                           &none &to LY_QWERTY &to LY_COLEMAK &none &none &none
+	&none &none &none      &none      &none      &none      &none &none  &none  &none &none &none         &none          &none &none &none
+	                       &none      &none      &none      &none &trans &trans &none &none &none         &none
 			>;
 		};
 	};
