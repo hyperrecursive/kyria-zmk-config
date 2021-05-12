@@ -64,8 +64,8 @@
 		movement_layer {
 			bindings = <
 	&none    &none &none     &none    &none     &none                                      &none    &kp PG_UP &kp UP   &none     &none   &none
-	&none    &none &kp LSHFT &kp LALT &kp LCTRL &kp INS                                    &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &kp END &none
-	&kp BSPC &none &none     &none    &none     &none   &none &none  &none           &none &none    &kp PG_DN &none    &none     &none   &kp DEL
+	&none    &none &kp LSHFT &kp LALT &kp LCTRL &kp INS                                    &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &none   &none
+	&kp BSPC &none &none     &none    &none     &none   &none &none  &none           &none &none    &kp PG_DN &none    &none     &kp END &kp DEL
 	                         &none    &none     &none   &none &trans &mo LY_SETTINGS &none &none    &none     &none
 			>;
 		};
