@@ -24,8 +24,8 @@
 		default_layer {
 			bindings = <
 	&none    &kp LSHFT &kp W &kp E     &kp R     &kp T                                                                       &kp Y         &kp U    &kp I     &kp O   &kp RSHFT &none
-	&kp Z    &kp Q     &kp S &kp D     &kp F     &kp G                                                                       &kp H         &kp J    &kp K     &kp L   &kp SEMI  &kp FSLH
-	&kp BSPC &kp A     &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp N         &kp M    &kp COMMA &kp DOT &kp P     &kp DEL
+	&kp BSPC &kp Q     &kp S &kp D     &kp F     &kp G                                                                       &kp H         &kp J    &kp K     &kp L   &kp SEMI  &kp DEL
+	&kp Z    &kp A     &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp N         &kp M    &kp COMMA &kp DOT &kp P     &kp FSLH
 	                         &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt RSHFT TAB &kp RALT &kp LCMD
 			>;
 		};
@@ -34,8 +34,8 @@
 		qwerty_layer {
 			bindings = <
 	&none    &kp LSHFT &kp W &kp F     &kp P     &kp G                                                                       &kp J         &kp L    &kp U     &kp Y   &kp RSHFT &none
-	&kp Z    &kp Q     &kp R &kp S     &kp T     &kp D                                                                       &kp H         &kp N    &kp E     &kp I   &kp SEMI  &kp FSLH
-	&kp BSPC &kp A     &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp K         &kp M    &kp COMMA &kp DOT &kp O     &kp DEL
+	&kp BSPC &kp Q     &kp R &kp S     &kp T     &kp D                                                                       &kp H         &kp N    &kp E     &kp I   &kp SEMI  &kp DEL
+	&kp Z    &kp A     &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp K         &kp M    &kp COMMA &kp DOT &kp O     &kp FSLH
 	                         &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt RSHFT TAB &kp RALT &kp LCMD
 			>;
 		};
@@ -44,8 +44,8 @@
 		symbols_layer {
 			bindings = <
 	&none    &none    &kp AT    &kp HASH  &kp DLLR &kp PRCNT                                &kp CARET &kp AMPS &kp ASTRK &kp TILDE &none             &none
-	&none    &kp EXCL &kp MINUS &kp UNDER &kp LPAR &kp LBRC                                 &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp GRAVE         &none
-	&kp BSPC &kp SQT  &kp AMPS  &kp BSLH  &kp LT   &kp LBKT  &kp LALT &none &none &kp RCTRL &kp RBKT  &kp GT   &kp FSLH  &kp PIPE  &kp DOUBLE_QUOTES &kp DEL
+	&kp BSPC &kp EXCL &kp MINUS &kp UNDER &kp LPAR &kp LBRC                                 &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp GRAVE         &kp DEL
+	&none    &kp SQT  &kp AMPS  &kp BSLH  &kp LT   &kp LBKT  &kp LALT &none &none &kp RCTRL &kp RBKT  &kp GT   &kp FSLH  &kp PIPE  &kp DOUBLE_QUOTES &none
 	                            &none     &none    &none     &none    &none &none &trans    &none     &none    &none
 			>;
 		};
@@ -54,8 +54,8 @@
 		numbers_layer {
 			bindings = <
 	&none    &kp N1 &kp N2    &kp N3    &kp N4    &kp N5                             &kp N6          &kp N7 &kp N8 &kp N9 &kp N0        &none
-	&none    &none  &kp LSHFT &kp LALT  &kp LCTRL &none                              &kp KP_PLUS     &kp N4 &kp N5 &kp N6 &kp KP_MINUS  &none
-	&kp BSPC &none  &none     &none     &none     &none  &none  &none &none   &none  &kp KP_MULTIPLY &kp N1 &kp N2 &kp N3 &kp KP_DIVIDE &kp DEL
+	&kp BSPC &none  &kp LSHFT &kp LALT  &kp LCTRL &none                              &kp KP_PLUS     &kp N4 &kp N5 &kp N6 &kp KP_MINUS  &kp DEL
+	&none    &none  &none     &none     &none     &none  &none  &none &none   &none  &kp KP_MULTIPLY &kp N1 &kp N2 &kp N3 &kp KP_DIVIDE &none
 	                          &none     &none     &none  &trans &none &kp RET &kp N0 &kp KP_DOT      &none  &none
 			>;
 		};
@@ -64,8 +64,8 @@
 		movement_layer {
 			bindings = <
 	&none    &none &none     &none    &none     &none                                      &none    &kp PG_UP &kp UP   &none     &none   &none
-	&none    &none &kp LSHFT &kp LALT &kp LCTRL &kp INS                                    &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &none   &none
-	&kp BSPC &none &none     &none    &none     &none   &none &none  &none           &none &none    &kp PG_DN &none    &none     &kp END &kp DEL
+	&kp BSPC &none &kp LSHFT &kp LALT &kp LCTRL &kp INS                                    &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &none   &kp DEL
+	&none    &none &none     &none    &none     &none   &none &none  &none           &none &none    &kp PG_DN &none    &none     &kp END &none
 	                         &none    &none     &none   &none &trans &mo LY_SETTINGS &none &none    &none     &none
 			>;
 		};
@@ -74,8 +74,8 @@
 		functional_layer {
 			bindings = <
 	&none    &none  &kp F2  &kp F3  &kp F4  &kp C_PREV                                      &kp C_NEXT   &none        &none        &none     &none &none
-	&kp F9   &kp F1 &kp F6  &kp F7  &kp F8  &kp C_VOL_DN                                    &kp C_VOL_UP &kp RCTRL    &kp RALT     &kp RSHFT &none &none
-	&kp BSPC &kp F5 &kp F10 &kp F11 &kp F12 &kp C_MUTE   &none &none           &none  &none &kp C_PP     &kp C_BRI_DN &kp C_BRI_UP &none     &none &kp DEL
+	&kp BSPC &kp F1 &kp F6  &kp F7  &kp F8  &kp C_VOL_DN                                    &kp C_VOL_UP &kp RCTRL    &kp RALT     &kp RSHFT &none &kp DEL
+	&kp F9  &kp F5 &kp F10 &kp F11 &kp F12 &kp C_MUTE   &none &none           &none  &none &kp C_PP     &kp C_BRI_DN &kp C_BRI_UP &none     &none &none
 	                        &none   &none   &none        &none &mo LY_SETTINGS &trans &none &none        &none        &none
 			>;
 		};
