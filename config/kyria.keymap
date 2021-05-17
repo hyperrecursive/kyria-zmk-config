@@ -46,7 +46,7 @@
 	&none &none    &kp AT    &kp HASH  &kp DLLR &kp PRCNT                                &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &none             &none
 	&none &kp EXCL &kp MINUS &kp UNDER &kp LPAR &kp LBRC                                 &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp TILDE         &none
 	&none &kp SQT  &kp AMPS  &kp BSLH  &kp LT   &kp LBKT  &kp LALT &none &none &kp RCTRL &kp RBKT  &kp GT   &kp FSLH  &kp PIPE  &kp DOUBLE_QUOTES &none
-	                         &none     &none    &kp BSPC  &none    &none &none &trans    &none     &none    &none
+	                         &none     &none    &none     &kp BSPC &none &none &trans    &none     &none    &none
 			>;
 		};
 
