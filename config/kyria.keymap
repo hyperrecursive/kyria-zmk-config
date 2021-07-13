@@ -23,9 +23,9 @@
 		// LY_QWERTY
 		default_layer {
 			bindings = <
-	&none &kp LSHFT &kp W &kp E     &kp R     &kp T                                                                       &kp Y         &kp U    &kp I     &kp O   &kp RSHFT &none
-	&none &kp Q     &kp S &kp D     &kp F     &kp G                                                                       &kp H         &kp J    &kp K     &kp L   &kp SEMI  &none
-	&kp Z &kp A     &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp N         &kp M    &kp COMMA &kp DOT &kp P     &kp FSLH
+	&none     &none &kp W &kp E     &kp R     &kp T                                                                       &kp Y         &kp U    &kp I     &kp O   &none    &none
+	&kp LSHFT &kp Q &kp S &kp D     &kp F     &kp G                                                                       &kp H         &kp J    &kp K     &kp L   &kp SEMI &kp RSHFT
+	&kp Z     &kp A &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp N         &kp M    &kp COMMA &kp DOT &kp P    &kp FSLH
 	                      &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt RSHFT TAB &kp RALT &kp LCMD
 			>;
 		};
@@ -33,9 +33,9 @@
 		// LY_COLEMAK
 		qwerty_layer {
 			bindings = <
-	&none &kp LSHFT &kp W &kp F     &kp P     &kp G                                                                       &kp J         &kp L    &kp U     &kp Y   &kp RSHFT &none
-	&none &kp Q     &kp R &kp S     &kp T     &kp D                                                                       &kp H         &kp N    &kp E     &kp I   &kp SEMI  &none
-	&kp Z &kp A     &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp K         &kp M    &kp COMMA &kp DOT &kp O     &kp FSLH
+	&none     &none &kp W &kp F     &kp P     &kp G                                                                       &kp J         &kp L    &kp U     &kp Y   &none    &none
+	&kp LSHFT &kp Q &kp R &kp S     &kp T     &kp D                                                                       &kp H         &kp N    &kp E     &kp I   &kp SEMI &kp RSHFT
+	&kp Z     &kp A &kp X &kp C     &kp V     &kp B         &kp LALT         &kp CAPS      &kp PSCRN     &kp RCTRL        &kp K         &kp M    &kp COMMA &kp DOT &kp O    &kp FSLH
 	                      &kp K_APP &kp LCTRL &mt LSHFT TAB &lt LY_NUM SPACE &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &mt RSHFT TAB &kp RALT &kp LCMD
 			>;
 		};
