@@ -43,10 +43,10 @@
 		// LY_SYM
 		symbols_layer {
 			bindings = <
-	&none     &none    &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                                &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &none             &none
-	&kp LSHFT &kp EXCL &kp MINUS &kp UNDER &kp LPAR  &kp LBRC                                 &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp TILDE         &kp RSHFT
-	&kp LALT  &kp SQT  &kp AMPS  &kp BSLH  &kp LT    &kp LBKT  &kp LALT &none &none &kp RCTRL &kp RBKT  &kp GT   &kp FSLH  &kp PIPE  &kp DOUBLE_QUOTES &kp RALT
-	                             &none     &kp LCTRL &kp LSHFT &kp BSPC &none &none &trans    &none     &none    &none
+	&none     &none    &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                                  &kp CARET &kp AMPS &kp ASTRK &kp GRAVE &none             &none
+	&kp LSHFT &kp EXCL &kp MINUS &kp UNDER &kp LPAR  &kp LBRC                                   &kp RBRC  &kp RPAR &kp EQUAL &kp PLUS  &kp TILDE         &kp RSHFT
+	&kp LALT  &kp SQT  &kp AMPS  &kp BSLH  &kp LT    &kp LBKT  &kp LALT &none   &none &kp RCTRL &kp RBKT  &kp GT   &kp FSLH  &kp PIPE  &kp DOUBLE_QUOTES &kp RALT
+	                             &none     &kp LCTRL &kp LSHFT &kp BSPC &kp DEL &none &trans    &none     &none    &none
 			>;
 		};
 
@@ -56,17 +56,17 @@
 	&none &none  &kp N2    &kp N3    &kp N4    &kp N5                              &kp N6          &kp N7     &kp N8 &kp N9 &none         &none
 	&none &kp N1 &kp LSHFT &kp LALT  &kp LCTRL &none                               &kp KP_PLUS     &kp N4     &kp N5 &kp N6 &kp KP_MINUS  &none
 	&none &none  &none     &none     &none     &none  &none  &none &none   &none   &kp KP_MULTIPLY &kp N1     &kp N2 &kp N3 &kp KP_DIVIDE &kp N0
-	                       &none     &none     &none  &trans &none &kp RET &kp DEL &kp N0          &kp KP_DOT &none
+	                       &none     &none     &none  &trans &none &kp RET &kp N0  &kp KP_DOT      &none      &none
 			>;
 		};
 
 		// LY_MV
 		movement_layer {
 			bindings = <
-	&none &none &none     &none    &none     &none                                      &kp PG_UP &kp BSPC &kp UP   &kp DEL   &none   &none
-	&none &none &kp LSHFT &kp LALT &kp LCTRL &kp INS                                    &kp HOME  &kp LEFT &kp DOWN &kp RIGHT &none   &none
-	&none &none &none     &none    &none     &none   &none &none  &none           &none &kp PG_DN &none    &none    &none     &kp END &none
-	                      &none    &none     &none   &none &trans &mo LY_SETTINGS &none &none     &none    &none
+	&none &none &none     &none    &none     &none                                      &none    &kp PG_UP &kp UP   &kp BSPC  &none   &none
+	&none &none &kp LSHFT &kp LALT &kp LCTRL &kp INS                                    &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &none   &none
+	&none &none &none     &none    &none     &none   &none &none  &none           &none &none    &kp PG_DN &none    &kp DEL   &kp END &none
+	                      &none    &none     &none   &none &trans &mo LY_SETTINGS &none &none    &none     &none
 			>;
 		};
 
