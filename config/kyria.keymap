@@ -15,6 +15,7 @@
 #define LY_MV 4
 #define LY_FN 5
 #define LY_SETTINGS 6
+#define LY_GAMING 7
 
 / {
 	behaviors {
@@ -43,7 +44,7 @@
 		};
 
 		// LY_COLEMAK
-		qwerty_layer {
+		colemak_layer {
 			bindings = <
 	&none &none       &kp W      &kp F        &kp P       &kp G                                                             &kp J &kp L       &kp U        &kp Y      &none      &none
 	&none &kp Q       &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                             &kp H &hm RCTRL N &hm RSHIFT E &hm RALT I &kp SEMI   &none
@@ -96,9 +97,19 @@
 		settings_layer {
 			bindings = <
 	&none        &none        &none        &none        &none &none                           &none &none &none &none &none         &none
-	&bt BT_CLR   &bt BT_PRV   &bt BT_NXT   &none        &none &none                           &none &none &none &none	&none         &none
+	&bt BT_CLR   &bt BT_PRV   &bt BT_NXT   &none        &none &none                           &none &none &none &none	&to LY_GAMING &none
 	&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none &none &none  &none  &none &none &none &none &none &to LY_QWERTY &to LY_COLEMAK
 	                                       &none        &none &none &none &trans &trans &none &none &none &none
+			>;
+		};
+
+		// LY_GAMING
+		gaming_layer {
+			bindings = <
+	&kp N2 &kp N3 &kp W &kp F &kp P &kp G                                     &kp J &kp L &kp U     &kp Y   &kp N6   &kp N5
+	&kp N1 &kp Q  &kp R &kp S &kp T &kp D                                     &kp H &kp N &kp E     &kp I   &kp SEMI &kp N4
+	&kp Z  &kp A  &kp X &kp C &kp V &kp B &none   &none   &none     &none     &kp K &kp M &kp COMMA &kp DOT &kp O    &kp FSLH
+	                    &none &none &none &kp TAB &kp ESC &kp ENTER &kp SPACE &none &none &none
 			>;
 		};
 	};
