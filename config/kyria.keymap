@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define LY_QWERTY 0
-#define LY_COLEMAK 1
+#define LY_COLEMAK 0
+#define LY_QWERTY 1
 #define LY_SYM 2
 #define LY_NUM 3
 #define LY_MV 4
@@ -33,16 +33,6 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		// LY_QWERTY
-		default_layer {
-			bindings = <
-	&none &none      &kp W      &kp E        &kp R       &kp T                                                        &kp Y         &kp U       &kp I        &kp O      &none      &none
-	&none &kp Q      &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G                                                        &kp H         &hm RCTRL J &hm RSHIFT K &hm RALT L &kp SEMI   &none
-	&none &hm LCMD A &kp X      &kp C        &kp V       &kp B         &none          &none &none    &none            &kp N         &kp M       &kp COMMA    &kp DOT    &hm RCMD P &none
-	                            &none        &none       &lt LY_MV ESC &lt LY_NUM TAB &kp Z &kp FSLH &lt LY_SYM SPACE &lt LY_FN RET &none       &none
-			>;
-		};
-
 		// LY_COLEMAK
 		colemak_layer {
 			bindings = <
@@ -50,6 +40,16 @@
 	&none &kp Q      &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                         &kp H         &hm RCTRL N &hm RSHIFT E &hm RALT I &kp SEMI   &none
 	&none &hm LCMD A &kp X      &kp C        &kp V       &kp B          &none          &none &none    &none            &kp K         &kp M       &kp COMMA    &kp DOT    &hm RCMD O &none
 	                            &none        &none       &lt LY_MV ESC  &lt LY_NUM TAB &kp Z &kp FSLH &lt LY_SYM SPACE &lt LY_FN RET &none       &none
+			>;
+		};
+
+		// LY_QWERTY
+		qwerty_layer {
+			bindings = <
+	&none &none      &kp W      &kp E        &kp R       &kp T                                                        &kp Y         &kp U       &kp I        &kp O      &none      &none
+	&none &kp Q      &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G                                                        &kp H         &hm RCTRL J &hm RSHIFT K &hm RALT L &kp SEMI   &none
+	&none &hm LCMD A &kp X      &kp C        &kp V       &kp B         &none          &none &none    &none            &kp N         &kp M       &kp COMMA    &kp DOT    &hm RCMD P &none
+	                            &none        &none       &lt LY_MV ESC &lt LY_NUM TAB &kp Z &kp FSLH &lt LY_SYM SPACE &lt LY_FN RET &none       &none
 			>;
 		};
 
@@ -96,10 +96,10 @@
 		// LY_SETTINGS
 		settings_layer {
 			bindings = <
-	&none        &none        &none        &none        &none &none                          &none  &none &none &none &none         &none
-	&bt BT_CLR   &bt BT_PRV   &bt BT_NXT   &none        &none &none                          &none  &none &none &none	&to LY_GAMING &none
-	&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none  &none &none &none &none &none  &none &none &none &to LY_QWERTY &to LY_COLEMAK
-	                                       &none        &none &trans &none &none &none &none &trans &none &none
+	&none &bt BT_CLR   &bt BT_PRV   &bt BT_NXT   &none        &none                          &none  &none          &none         &none         &none &none
+	&none &none        &none        &none        &none        &none                          &none  &none          &none         &none         &none &none
+	&none &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &none  &none &none &none &none &none  &to LY_COLEMAK &to LY_QWERTY &to LY_GAMING &none &none
+	                                &none        &none        &trans &none &none &none &none &trans &none          &none
 			>;
 		};
 
