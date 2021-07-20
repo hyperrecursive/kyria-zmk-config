@@ -36,20 +36,20 @@
 		// LY_QWERTY
 		default_layer {
 			bindings = <
-	&none &none       &kp W      &kp E        &kp R       &kp T                                                             &kp Y &kp U       &kp I        &kp O      &none      &none
-	&none &kp Q       &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G                                                             &kp H &hm RCTRL J &hm RSHIFT K &hm RALT L &kp SEMI   &none
-	&kp Z &hm K_APP A &kp X      &kp C        &kp V       &kp B &none          &none         &none         &none            &kp N &kp M       &kp COMMA    &kp DOT    &hm RCMD P &kp FSLH
-	                             &none        &none       &none &lt LY_NUM TAB &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &none &none &none
+	&none &none      &kp W      &kp E        &kp R       &kp T                                                             &kp Y &kp U       &kp I        &kp O      &none      &none
+	&none &kp Q      &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G                                                             &kp H &hm RCTRL J &hm RSHIFT K &hm RALT L &kp SEMI   &none
+	&kp Z &hm LCMD A &kp X      &kp C        &kp V       &kp B &none          &none         &none         &none            &kp N &kp M       &kp COMMA    &kp DOT    &hm RCMD P &kp FSLH
+	                            &none        &none       &none &lt LY_NUM TAB &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &none &none &none
 			>;
 		};
 
 		// LY_COLEMAK
 		colemak_layer {
 			bindings = <
-	&none &none       &kp W      &kp F        &kp P       &kp G                                                             &kp J &kp L       &kp U        &kp Y      &none      &none
-	&none &kp Q       &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                             &kp H &hm RCTRL N &hm RSHIFT E &hm RALT I &kp SEMI   &none
-	&kp Z &hm K_APP A &kp X      &kp C        &kp V       &kp B &none          &none         &none         &none            &kp K &kp M       &kp COMMA    &kp DOT    &hm RCMD O &kp FSLH
-	                             &none        &none       &none &lt LY_NUM TAB &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &none &none       &none
+	&none &none      &kp W      &kp F        &kp P       &kp G                                                             &kp J &kp L       &kp U        &kp Y      &none      &none
+	&none &kp Q      &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                             &kp H &hm RCTRL N &hm RSHIFT E &hm RALT I &kp SEMI   &none
+	&kp Z &hm LCMD A &kp X      &kp C        &kp V       &kp B &none          &none         &none         &none            &kp K &kp M       &kp COMMA    &kp DOT    &hm RCMD O &kp FSLH
+	                            &none        &none       &none &lt LY_NUM TAB &lt LY_MV ESC &lt LY_FN RET &lt LY_SYM SPACE &none &none       &none
 			>;
 		};
 
@@ -66,30 +66,30 @@
 		// LY_NUM
 		numbers_layer {
 			bindings = <
-	&none &none     &none    &none     &none     &none                              &none           &kp N7 &kp N8 &kp N9 &none        &none
-	&none &none     &kp LALT &kp LSHFT &kp LCTRL &none                              &kp KP_PLUS     &kp N4 &kp N5 &kp N6 &kp KP_DOT   &none
-	&none &kp K_APP &none    &none     &none     &none  &none  &none &none   &none  &kp KP_MULTIPLY &kp N1 &kp N2 &kp N3 &kp KP_MINUS &kp KP_DIVIDE
-	                         &none     &none     &none  &trans &none &kp RET &kp N0 &none           &none  &none
+	&none &none    &none    &none     &none     &none                              &none           &kp N7 &kp N8 &kp N9 &none        &none
+	&none &none    &kp LALT &kp LSHFT &kp LCTRL &none                              &kp KP_PLUS     &kp N4 &kp N5 &kp N6 &kp KP_DOT   &none
+	&none &kp LCMD &none    &none     &none     &none  &none  &none &none   &none  &kp KP_MULTIPLY &kp N1 &kp N2 &kp N3 &kp KP_MINUS &kp KP_DIVIDE
+	                        &none     &none     &none  &trans &none &kp RET &kp N0 &none           &none  &none
 			>;
 		};
 
 		// LY_MV
 		movement_layer {
 			bindings = <
-	&none &none     &none    &none     &none     &none                                        &kp INS  &kp PG_UP &kp UP   &kp BSPC  &none   &none
-	&none &none     &kp LALT &kp LSHFT &kp LCTRL &none                                        &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &none   &none
-	&none &kp K_APP &none    &none     &none     &none &none &none  &none           &none     &kp CAPS &kp PG_DN &kp TAB  &kp DEL   &kp END &none
-	                         &none     &none     &none &none &trans &mo LY_SETTINGS &kp SPACE &none    &none     &none
+	&none &none    &none    &none     &none     &none                                        &kp INS  &kp PG_UP &kp UP   &kp BSPC  &none   &none
+	&none &none    &kp LALT &kp LSHFT &kp LCTRL &none                                        &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &none   &none
+	&none &kp LCMD &none    &none     &none     &none &none &none  &none           &none     &kp CAPS &kp PG_DN &kp TAB  &kp DEL   &kp END &none
+	                        &none     &none     &none &none &trans &mo LY_SETTINGS &kp SPACE &none    &none     &none
 			>;
 		};
 
 		// LY_FN
 		functional_layer {
 			bindings = <
-	&none   &none   &kp F7 &kp F8 &kp F9 &kp C_PREV                                          &kp C_NEXT   &none        &none        &none    &none    &none
+	&none   &none   &kp F7 &kp F8 &kp F9 &kp C_PREV                                          &kp C_NEXT   &kp PSCRN    &none        &none    &none    &none
 	&none   &kp F12 &kp F4 &kp F5 &kp F6 &kp C_VOL_DN                                        &kp C_VOL_UP &kp RCTRL    &kp RSHFT    &kp RALT &none    &none
 	&kp F10 &kp F11 &kp F1 &kp F2 &kp F3 &kp C_MUTE   &none     &none           &none  &none &kp C_PP     &kp C_BRI_DN &kp C_BRI_UP &none    &kp RCMD &none
-	                       &none  &none  &none        &kp PSCRN &mo LY_SETTINGS &trans &none &none        &none        &none
+	                       &none  &none  &none        &kp K_APP &mo LY_SETTINGS &trans &none &none        &none        &none
 			>;
 		};
 
