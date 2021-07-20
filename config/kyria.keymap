@@ -46,10 +46,10 @@
 		// LY_COLEMAK
 		colemak_layer {
 			bindings = <
-	&none &none      &kp W      &kp F        &kp P       &kp G                                                     &kp J         &kp L       &kp U        &kp Y      &none      &none
-	&none &kp Q      &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                     &kp H         &hm RCTRL N &hm RSHIFT E &hm RALT I &kp SEMI   &none
-	&kp Z &hm LCMD A &kp X      &kp C        &kp V       &kp B          &none         &none &none &none            &kp K         &kp M       &kp COMMA    &kp DOT    &hm RCMD O &kp FSLH
-	                            &none        &none       &lt LY_NUM TAB &lt LY_MV ESC &none &none &lt LY_SYM SPACE &lt LY_FN RET &none       &none
+	&none &none      &kp W      &kp F        &kp P       &kp G                                                      &kp J         &kp L       &kp U        &kp Y      &none      &none
+	&none &kp Q      &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                      &kp H         &hm RCTRL N &hm RSHIFT E &hm RALT I &kp SEMI   &none
+	&kp Z &hm LCMD A &kp X      &kp C        &kp V       &kp B          &none          &none &none &none            &kp K         &kp M       &kp COMMA    &kp DOT    &hm RCMD O &kp FSLH
+	                            &none        &none       &lt LY_MV ESC  &lt LY_NUM TAB &none &none &lt LY_SYM SPACE &lt LY_FN RET &none       &none
 			>;
 		};
 
