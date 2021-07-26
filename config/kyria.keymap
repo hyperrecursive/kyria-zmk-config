@@ -17,6 +17,10 @@
 #define LY_SETTINGS 6
 #define LY_GAMING 7
 
+&lt {
+	tapping-term-ms = <150>;
+};
+
 / {
 	behaviors {
 		hm: homerow_mods {
