@@ -43,7 +43,7 @@
 	&none &kp Q      &kp W      &kp F        &kp P       &kp G                                                             &kp J &kp L       &kp U        &kp Y      &kp SEMI   &none
 	&none &hm LCMD A &hm LALT R &hm LSHIFT S &hm LCTRL T &kp D                                                             &kp H &hm RCTRL N &hm RSHIFT E &hm RALT I &hm RCMD O &none
 	&none &kp Z      &kp X      &kp C        &kp V       &kp B &lt LY_MV TAB &lt LY_NUM ESC &lt LY_FN RET &lt LY_SYM SPACE &kp K &kp M       &kp COMMA    &kp DOT    &kp FSLH   &none
-	                            &none        &none       &none &none         &none          &none         &none            &none &none
+	                            &none        &none       &none &none         &none          &none         &none            &none &none       &none
 			>;
 		};
 
@@ -70,7 +70,7 @@
 		// LY_NUM
 		numbers_layer {
 			bindings = <
-	&none &none    &none    &none     &none     &none                                      &kp KP_PLUS  g&kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY &none
+	&none &none    &none    &none     &none     &none                                      &kp KP_PLUS  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY &none
 	&none &kp LCMD &kp LALT &kp LSHFT &kp LCTRL &none                                      &kp KP_MINUS &kp N4 &kp N5 &kp N6 &kp KP_DIVIDE   &none
 	&none &none    &none    &none     &none     &none &none &trans &mo LY_SETTINGS &kp RET &kp N0       &kp N1 &kp N2 &kp N3 &kp KP_DOT      &none
 	                        &none     &none     &none &none &none  &none           &none   &none        &none  &none
@@ -83,7 +83,7 @@
 	&none &none    &none    &none     &none     &none                                &kp INS  &kp BSPC &kp UP   &kp PG_UP &none   &none
 	&none &kp LCMD &kp LALT &kp LSHFT &kp LCTRL &none                                &kp HOME &kp LEFT &kp DOWN &kp RIGHT &kp END &none
 	&none &none    &none    &none     &none     &none &trans &none &kp RET &kp SPACE &kp CAPS &kp DEL  &kp TAB  &kp PG_DN &none   &none
-	                        &none     &none     &none &none  &none &none &none &none &none    &none
+	                        &none     &none     &none &none  &none &none   &none     &none    &none    &none
 			>;
 		};
 
