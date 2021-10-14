@@ -17,6 +17,10 @@
 #define LY_SETTINGS 6
 #define LY_GAMING 7
 
+&kscan0 {
+	debounce-period = <20>;
+};
+
 &lt {
 	tapping-term-ms = <150>;
 };
