@@ -16,6 +16,7 @@
 #define LY_FN 5
 #define LY_SETTINGS 6
 #define LY_GAMING 7
+#define LY_GAMING_WASD 8
 
 &kscan0 {
 	debounce-period = <20>;
@@ -104,9 +105,9 @@
 		// LY_SETTINGS
 		settings_layer {
 			bindings = <
-	&none &bt BT_CLR   &none        &bt BT_PRV   &bt BT_NXT   &none                                  &none &none          &none         &none         &none &none
-	&none &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0                           &none &to LY_COLEMAK &to LY_QWERTY &to LY_GAMING &none &none
-	&none &none        &none        &none        &none        &none        &none &trans &trans &none &none &none          &none         &none         &none &none
+	&none &bt BT_CLR   &none        &bt BT_PRV   &bt BT_NXT   &none                                  &none &none          &none         &none         &none              &none
+	&none &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0                           &none &to LY_COLEMAK &to LY_QWERTY &to LY_GAMING &to LY_GAMING_WASD &none
+	&none &none        &none        &none        &none        &none        &none &trans &trans &none &none &none          &none         &none         &none              &none
 	                                &none        &none        &none        &none &none  &none  &none &none &none          &none
 			>;
 		};
@@ -117,7 +118,17 @@
 	&none &kp Q &kp W &kp F &kp P &kp G                                       &kp J &kp L &kp U     &kp Y   &kp ESC        &none
 	&none &kp A &kp R &kp S &kp T &kp D                                       &kp H &kp N &kp E     &kp I   &kp GRAVE      &none
 	&none &kp Z &kp X &kp C &kp V &kp B &kp SPACE &kp LCTRL &kp LSHFT &kp TAB &kp K &kp M &kp COMMA &kp DOT &to LY_COLEMAK &none
-	                   &none &none &none &none     &none     &none     &none   &none &none &none
+	                  &none &none &none &none     &none     &none     &none   &none &none &none
+			>;
+		};
+
+		// LY_GAMING_WASD
+		gaming_layer {
+			bindings = <
+	&none &kp Q &kp W &kp E &kp R &kp T                                       &kp Y &kp U &kp I     &kp O   &kp ESC        &none
+	&none &kp A &kp S &kp D &kp F &kp G                                       &kp H &kp J &kp K     &kp L   &kp GRAVE      &none
+	&none &kp Z &kp X &kp C &kp V &kp B &kp SPACE &kp LCTRL &kp LSHFT &kp TAB &kp N &kp M &kp COMMA &kp DOT &to LY_COLEMAK &none
+	                  &none &none &none &none     &none     &none     &none   &none &none &none
 			>;
 		};
 	};
